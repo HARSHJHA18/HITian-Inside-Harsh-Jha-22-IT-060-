@@ -1,0 +1,399 @@
+#header {
+    margin: -8px;
+    padding: 0px;
+    display: flex;
+    /* border: 2px solid red; */
+    position: fixed;
+    box-shadow: 0px 5px 8px 0px;
+    color: #bc1313;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(253, 230, 230);
+    align-items: center;
+    box-sizing: border-box;
+}
+/* body {
+    /* background-color: #c42323; */
+ 
+*{
+    transition-duration: 0.5s;
+    scroll-behavior: smooth;
+    /* color: maroon; */
+}
+
+.acm {
+    display: inline;
+    width: 120px;
+    height: 80px;
+}
+
+#ul {
+    display: flex;
+    list-style: none;
+}
+
+#li {
+    cursor: pointer;
+    /* border-right: 0.5px solid black; */
+    padding: 10px;
+
+}
+.list{
+    text-decoration: none;
+    color: black;
+
+}
+
+#span1 {
+    margin: 8px -9px;
+    width: 160px;
+    font-weight: bold;
+    color: #bc1313;
+    font-size: x-large;
+}
+
+nav {
+    margin: 0px 230px;
+    font-size: large;
+}
+
+.list:hover {
+    color: rgb(237, 105, 105);
+}
+#li:hover{
+    transform: scale(1.3);
+}
+
+.img {
+    background-image: url('/background.jpg');
+    background-size: 100% 698px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 798px;
+    text-align: center;
+    line-height: 80px;
+
+}
+h1 {
+    margin: 0px 0px 0px 0px;
+    padding-top: 300px;
+    text-align: center;
+    color: rgb(253, 253, 253);
+}
+
+#btn {
+    background-color: red;
+    border: none;
+    font-size: medium;
+    padding: 10px;
+    color: rgb(238, 239, 240);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(246, 139, 110);
+    transform: scale(1.2);
+}
+
+#section {
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(236, 236, 236);
+    padding-top: 0px;
+    border-radius: 2px;
+}
+
+#div1 {
+    /* border: 2px solid blue; */
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    /* padding-top: 50px; */
+}
+
+#sec1 {
+    /* border: 2px solid green; */
+    /* float: right; */
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    grid-auto-rows: auto;
+    width: 700px;
+
+}
+
+#input1 {
+    height: 40px;
+    width: 142px;
+    background-color: red;
+    border: none;
+    font-size: medium;
+    padding: 10px;
+    color: rgb(238, 239, 240);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#span3 {
+    padding-top: 90px;
+    color: rgb(152, 13, 13);
+    font-weight: bold;
+    font-size: 40px;
+    height: 40px;
+}
+
+.aside {
+    /* border: 2px solid rosybrown; */
+    padding: 86px;
+    width: 300px;
+}
+
+#ul2 {
+    list-style: none;
+}
+
+#imp {
+    background-color: rgb(61, 150, 232);
+    color: white;
+    font-size: 25px;
+}
+
+#eve {
+    background-color: rgb(50 77 135);
+    color: white;
+    font-size: 25px;
+}
+
+#good {
+    background-color: #c42323;
+    color: white;
+    font-size: 25px;
+}
+
+#input1:hover {
+    background-color: rgb(246, 139, 110);
+}
+
+#p {
+    margin: 0px;
+    height: 0px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: cursive;
+}
+
+.sp {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.sp:hover {
+    color: bisque;
+    transform: scale(1.1);
+}
+
+h2 {
+    line-height: normal;
+    font-size: 45px;
+    margin: 30px;
+    padding-left: 87px;
+    padding-top: 55px;
+    padding-bottom: 25px;
+    color: #bc1313;
+}
+
+.even {
+    /* border: 2px solid red; */
+    margin-left: 120px;
+    /* color: #bc1313; */
+}
+
+.text {
+    /* border: 2px solid blueviolet; */
+    margin-left: 70px;
+    color: #bc1313;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.bttn {
+    display: flex;
+    float: right;
+    margin-right: 160px;
+    padding: 7px;
+    margin-top: 19px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    font-size: medium;
+    color: rgb(238, 239, 240);
+    font-weight: bold;
+}
+
+.bttn:hover {
+    background-color: rgb(246, 139, 110);
+}
+
+.date {
+    font-size: 45px;
+    /* font-weight: bold; */
+}
+
+#bttnn {
+    display: flex;
+    margin-left: 45%;
+    padding: 10px;
+    margin-top: 37px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    font-size: medium;
+    color: rgb(238, 239, 240);
+    font-weight: bold;
+}
+
+#bttnn:hover {
+    background-color: rgb(246, 139, 110);
+}
+
+.month {
+    /* border: 2px solid gray; */
+    display: inline-block;
+    width: 20px;
+}
+
+.dv {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#bt {
+    width: 140px;
+    padding-left: 15px;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+    height: 500px;
+}
+
+#pic {
+    margin-top: 12px;
+}
+
+#vid {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.imgsec {
+    padding: 2px;
+    cursor: pointer;
+}
+
+#imgsrc1 {
+    width: 20%;
+}
+
+#imgsrc2 {
+
+    width: 24%;
+}
+
+#imgsrc3 {
+
+    width: 10%;
+}
+
+#imgsrc4 {
+
+    width: 18%;
+    height: 159px;
+}
+
+#imgsrc5 {
+
+    width: 24%;
+}
+
+.imgsec:hover {
+    transform: scale(1.05);
+}
+
+#box {
+    margin-top: 70px;
+    padding: 20px;
+    background-color: rgb(245, 219, 219);
+}
+
+#media {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.social {
+    border: 0.5px solid black;
+    border-radius: 5px;
+    height: 30px;
+    display: inline-flex;
+    width: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#fb {
+    margin-left: 41.5%;
+    cursor: pointer;
+}
+
+#linkedin {
+    cursor: pointer;
+}
+
+#insta {
+    cursor: pointer;
+}
+
+#fb:hover {
+    background-color: rgb(40, 108, 204);
+    transform: scale(1.3);
+}
+
+#insta:hover {
+    transform: scale(1.3);
+    background-color: rgb(255, 0, 225);
+}
+
+#linkedin:hover {
+    transform: scale(1.3);
+    background-color: rgb(43, 43, 210);
+}
+
+#foot {
+    background-color: rgb(189, 1, 1);
+    margin: -8px;
+    height: 35px;  
+   margin-top: 35px;
+   padding-top: 0.5px;
+   padding-left: 38.6%;
+   padding-bottom: 10px;
+   font-weight: bold;
+}
+.copyrights{
+    color: aliceblue;
+}
